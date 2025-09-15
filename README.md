@@ -35,18 +35,6 @@ python -m eval.harness
 
 ## Screenshots
 
-**Evaluation run (metrics table + confusion matrix)**
-
-![](<assets/01_Screenshot_(1461).png>)
-
-**Empty state before run**
-
-![](<assets/02_Screenshot_(1462).png>)
-
-**Final report view (ticket created)**
-
-![](<assets/03_Screenshot_(1463).png>)
-
 **RAG citations tab**
 
 ![](<assets/04_Screenshot_(1464).png>)
@@ -55,19 +43,11 @@ python -m eval.harness
 
 ![](<assets/05_Screenshot_(1465).png>)
 
-**Running state header**
-
-![](<assets/06_Screenshot_(1466).png>)
-
 **Packet-loss scenario with ticket download**
 
 ![](<assets/07_Screenshot_(1467).png>)
 
-**Additional view**
-
-![](<assets/08_Screenshot_(1468).png>)
-
-**Additional view**
+**Evaluation run (metrics table + confusion matrix)**
 
 ![](<assets/09_Screenshot_(1469).png>)
 
