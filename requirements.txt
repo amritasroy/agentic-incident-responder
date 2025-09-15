@@ -1,0 +1,11 @@
+pydantic==2.8.2
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+python-dotenv==1.0.1
+pyyaml==6.0.2
+rich==13.7.1
+matplotlib==3.9.2
+transformers>=4.44.0
+torch>=2.0.0
+langgraph==0.2.38

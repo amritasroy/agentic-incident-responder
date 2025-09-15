@@ -1,0 +1,2 @@
+description: "Telemetry gaps detected; gateway reports packet loss intermittently."
+label: "network_packet_loss"

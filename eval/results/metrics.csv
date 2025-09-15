@@ -1,0 +1,3 @@
+scenario,label,pred,correct,confidence
+bearing_wear_03,bearing_wear,bearing_wear,1,0.75
+packet_loss_02,network_packet_loss,network_packet_loss,1,0.75

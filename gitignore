@@ -1,0 +1,86 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Caches & tooling
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.ipynb_checkpoints/
+.cache/
+**/.cache/
+
+# Coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Streamlit ----
+# keep config files but never commit secrets
+.streamlit/**/secrets.toml
+.streamlit/secrets.toml
+
+# ---- Hugging Face / model caches (if any end up inside repo) ----
+hf_cache/
+models_cache/
+**/.huggingface/
+**/huggingface/*
+
+# ---- Project-specific artifacts ----
+# Generated tickets and evaluation outputs
+models/ticket_*.md
+eval/results/*
+# Temporary or synthetic data dumps (keep real KB/scenarios/timeseries/logs)
+data/tmp/**
+data/**/tmp/**
+
+# Checkpoints / runs
+checkpoints/
+**/checkpoints/
+langgraph_checkpoints/
+runs/
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Archives/Downloads
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Node (if you add a web front-end later)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
