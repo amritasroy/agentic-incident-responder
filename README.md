@@ -49,7 +49,7 @@ python -m eval.harness
 
 **Evaluation run (metrics table + confusion matrix)**
 
-![](<assets/09_Screenshot_(1469).png>)
+![](<assets/09_Screenshot_(1476).png>)
 
 ## Architecture (high level)
 
